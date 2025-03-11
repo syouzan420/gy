@@ -1,4 +1,4 @@
-module Connector(initDrive,mainDrive,mainLoop,getTime,clearAndRender
+module Connector(initDrive,mainDrive,mainLoop,getTime
                 ,toPInput,Input,PInput(..)) where
 
 import GLDriver

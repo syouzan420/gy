@@ -1,4 +1,4 @@
-module GLDriver(initDrive,mainDrive,mainLoop,getTime,clearAndRender
+module GLDriver(initDrive,mainDrive,mainLoop,getTime
                ,toPInput,Input,PInput(..)) where
 
 import System.Exit(exitSuccess)
@@ -6,7 +6,7 @@ import Data.IORef(writeIORef,readIORef,IORef)
 import FRP.Yampa(react,Event(..),ReactHandle)
 import Graphics.UI.GLUT(($=),displayCallback,idleCallback,mainLoop,get,elapsedTime
                        ,keyboardMouseCallback,Key(..),KeyState(..),Modifiers)
-import MyGL(initGL,clearAndRender)
+import InitGL(initGL)
 
 data Input = Keyboard !Key !KeyState !Modifiers
 

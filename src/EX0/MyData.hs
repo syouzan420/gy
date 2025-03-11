@@ -1,4 +1,4 @@
-module MyData(Pos,Vel,Obj(..),initBall) where
+module EX0.MyData(Pos,Vel,Obj(..),initBall) where
 
 import Data.Vector2(vector2,Vector2)
 

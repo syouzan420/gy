@@ -27,10 +27,14 @@ library
   exposed-modules:
       AppMain
       Connector
+      EX0.MyData
+      EX0.MyGL
+      EX0.MySF
+      EX1.MyData
+      EX1.MyGL
+      EX1.MySF
       GLDriver
-      MyData
-      MyGL
-      MySF
+      InitGL
   other-modules:
       Paths_gly
   autogen-modules:

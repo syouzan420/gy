@@ -1,10 +1,11 @@
 {-# LANGUAGE Arrows #-}
-module MySF(mainSF) where
+module EX0.MySF(mainSF) where
 
 import FRP.Yampa (arr,filterE,integral,returnA
                  ,(>>^),(^<<),(>>>),(^+^),SF,Event(..))
-import Connector(clearAndRender,toPInput,Input,PInput(..))
-import MyData(Obj(..),initBall)
+import Connector(toPInput,Input,PInput(..))
+import EX0.MyGL(clearAndRender)
+import EX0.MyData(Obj(..),initBall)
 
 rollingBall :: Obj -> SF () Obj 
 rollingBall (Obj p0 v0) = proc _ -> do

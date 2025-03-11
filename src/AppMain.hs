@@ -3,7 +3,7 @@ module AppMain(appMain) where
 import FRP.Yampa(reactInit,Event(..))
 import Data.IORef(newIORef,writeIORef)
 import Connector(initDrive,mainDrive,mainLoop,getTime)
-import MySF(mainSF)
+import EX1.MySF(mainSF)
 
 appMain :: IO ()
 appMain = do
