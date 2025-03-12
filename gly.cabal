@@ -33,6 +33,12 @@ library
       EX1.MyData
       EX1.MyGL
       EX1.MySF
+      EX2.MyData
+      EX2.MyGL
+      EX2.MySF
+      EX3.MyData
+      EX3.MyGL
+      EX3.MySF
       GLDriver
       InitGL
   other-modules:
